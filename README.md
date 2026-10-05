@@ -16,6 +16,11 @@ Features
 - No account required
 - Lightweight Android application
 
+Screenshot
+----------
+
+<img src="screenshots/main-screen.jpg" width="320" alt="SigaraTakip main screen">
+
 Building on Android with Termux
 -------------------------------
 
