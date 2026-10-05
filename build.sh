@@ -1,14 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -e
 
-ROOT="$HOME/SigaraTakip"
+ROOT="$(cd "$(dirname "$0")" && pwd)"
 SRC="$ROOT/app/src/main"
 BUILD="$ROOT/build"
 
 ANDROID_JAR="$HOME/android-sdk/platforms/android-35/android.jar"
 
 AAPT2="/data/data/com.termux/files/home/tools/aapt2/aapt2"
-P_ROOT="/data/data/com.termux/files/home/SigaraTakip"
+P_ROOT="$ROOT"
 P_SRC="$P_ROOT/app/src/main"
 P_BUILD="$P_ROOT/build"
 P_ANDROID_JAR="/data/data/com.termux/files/home/android-sdk/platforms/android-35/android.jar"
