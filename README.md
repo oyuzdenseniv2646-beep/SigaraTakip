@@ -60,9 +60,12 @@ The AAPT2 binary must be executable:
 
     chmod +x ~/tools/aapt2/aapt2
 
-7. Make the build script executable:
+7. Run the Termux setup script:
 
-    chmod +x build.sh
+    chmod +x setup.sh
+    ./setup.sh
+
+The setup script checks the required Termux packages, Debian environment and Android build tools.
 
 8. Build the application:
 
